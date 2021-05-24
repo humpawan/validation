@@ -1,0 +1,21 @@
+{
+    "name": "hum/laravel-validation",
+    "description": "Validation - A simple Laravel validation package.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pawan garg",
+            "email": "hum2250@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "hum\\validation\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1.3"
+    }
+}
