@@ -1,5 +1,5 @@
 <?php 
-namespace hum\validation;
+namespace hum\Validation;
 use Illuminate\Support\Facades\Validator;
 	
 class Validation

@@ -1,11 +1,11 @@
 {
-    "name": "hum/laravel-validation",
-    "description": "Validation - A simple Laravel validation package.",
+    "name": "hum/validation",
+    "description": "HUM-Validation - A simple laravel package.",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "Pawan garg",
+            "name": "Pawan Garg",
             "email": "hum2250@gmail.com"
         }
     ],
