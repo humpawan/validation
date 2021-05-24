@@ -1,9 +1,6 @@
 # Laravel Validation
 
-[![Latest Stable Version](https://poser.pugx.org/hum/mediafile/v)](//packagist.org/packages/hum/mediafile) 
-[![Total Downloads](https://poser.pugx.org/hum/mediafile/downloads)](//packagist.org/packages/hum/mediafile) 
-[![Latest Unstable Version](https://poser.pugx.org/hum/mediafile/v/unstable)](//packagist.org/packages/hum/mediafile) 
-[![License](https://poser.pugx.org/hum/mediafile/license)](//packagist.org/packages/hum/mediafile)
+[![Latest Stable Version](https://poser.pugx.org/hum/validation/v)](//packagist.org/packages/hum/validation) [![Total Downloads](https://poser.pugx.org/hum/validation/downloads)](//packagist.org/packages/hum/validation) [![Latest Unstable Version](https://poser.pugx.org/hum/validation/v/unstable)](//packagist.org/packages/hum/validation) [![License](https://poser.pugx.org/hum/validation/license)](//packagist.org/packages/hum/validation)
 
 Laravel Upload Files
 =======
