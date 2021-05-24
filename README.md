@@ -21,10 +21,27 @@ composer require hum/validation
 Example
 -------
 ```php
-use hum\mediafile\FilesUploads;
+use hum\validation\Validation;
 
-$destinationPath = 'your storege path'; // upload path
-$files = $_FILES['file'];
-$file = new FilesUploads();
-$returndata = $file->postImages($files,$destinationPath);
-return $returndata;
+// $valueColumn = 1; //accepted value
+        $valueColumn = 'pawan.garg@sufalamtech.com'; //email value
+        // $valueColumn = '2021-08-08'; //date formet value
+        $tableName = 'users'; //table name
+        $columnName = 'email'; //column name
+        $length = 4; //column length for min-max ,size
+        $dateformet = 'Y-m-d'; // date formet
+        $datatype = 'integer'; // datatype
+        // $datatype = 'string'; // datatype
+        $filetype = 'jpg,jpeg,png,bmp,tiff'; //define the file type
+        $filemessage = 'Please insert image only';
+        $validation = new Validation();
+        $valueReturn = $validation->uniqueValueColumn($tableName,$columnName,$valueColumn); // unique
+        // $valueReturn = $this->requiredValueColumn($columnName,$valueColumn); // required
+        // $valueReturn = $this->minValueColumn($columnName,$valueColumn,$length); //min value
+        // $valueReturn = $this->maxValueColumn($columnName,$valueColumn,$length); //max value
+        // $valueReturn = $this->acceptedValueColumn($columnName,$valueColumn); // accepted
+        // $valueReturn = $this->dateformetValueColumn($columnName,$valueColumn,$dateformet); //date format
+        // $valueReturn = $this->datatypeValueColumn($columnName,$valueColumn,$datatype); //data types
+        // $valueReturn = $this->datasizeValueColumn($columnName,$valueColumn,$length); //data size
+        // $valueReturn = $this->filesValueColumn($columnName,$valueColumn,$filetype,$filemessage); //files
+        return response()->json($valueReturn);
