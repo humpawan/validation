@@ -2,9 +2,9 @@
 
 [![Latest Stable Version](https://poser.pugx.org/hum/validation/v)](//packagist.org/packages/hum/validation) [![Total Downloads](https://poser.pugx.org/hum/validation/downloads)](//packagist.org/packages/hum/validation) [![Latest Unstable Version](https://poser.pugx.org/hum/validation/v/unstable)](//packagist.org/packages/hum/validation) [![License](https://poser.pugx.org/hum/validation/license)](//packagist.org/packages/hum/validation)
 
-Laravel Upload Files
+Laravel Validation
 =======
-A simple library for Laravel Upload.by using this you can upload any file or image.even you can use this for single/multiple upload also.
+A simple library for Laravel Validation.by using this you can validate your form data.
 
 Installation
 ------------
